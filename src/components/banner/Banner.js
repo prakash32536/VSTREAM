@@ -70,7 +70,6 @@ const Banner = () => {
         <StyledBannerTitle>{movie?.name || movie?.title || movie?.original}</StyledBannerTitle>
         <StyledBannerButtonsDiv>
           <StyledBannerButton onClick={() => handleClick(movie)}>Play</StyledBannerButton>
-          {/* <StyledBannerButton>My List</StyledBannerButton> */}
         </StyledBannerButtonsDiv>
         <StyledBannerDescription>{truncate(`${movie?.overview}`, 150)}</StyledBannerDescription>
       </StyledBannerContentsDiv>
