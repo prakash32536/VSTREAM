@@ -11,11 +11,6 @@ const Banner = () => {
   const [movie, setmovie] = useState([])
   const [tralerURL, settralerURL] = useState("")
 
-  let loder = true
-  if (movie.length > 0) {
-    loder = false
-  }
-
 
   const handleClick = (movie) => {
     if (tralerURL) {

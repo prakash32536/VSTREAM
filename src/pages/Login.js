@@ -30,7 +30,7 @@ const Login = () => {
         // Signed in 
         const user = userCredential.user;
         console.log("login", user)
-        navigate('/dashboard')
+        navigate('/')
         // ...
       })
       .catch((error) => {

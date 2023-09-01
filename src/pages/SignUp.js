@@ -42,7 +42,7 @@ const SignUp = () => {
 
 
     const haldleNavigate = () => {
-        navigate('/')
+        navigate('/login')
     }
     return (
         <div>
