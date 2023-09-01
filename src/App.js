@@ -10,9 +10,9 @@ function App() {
   return (
     <StyledAppDiv className="App">
       <Routes>
-        <Route path='/' element= {<Login/>} />
+        <Route path='/' element= {<Home/>} />
         <Route path='/signup' element= {<SignUp/>} />
-        <Route path='/dashboard' element= {<Home/>} />
+        <Route path='/login' element= {<Login/>} />
       </Routes>
     </StyledAppDiv>
   );

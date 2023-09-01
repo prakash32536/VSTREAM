@@ -18,6 +18,16 @@ object-fit: contain;
 margin-right: 10px;
 transition: transform 450ms;
 `;
+export const StyledDemoDIv = styled.div`
+height: 100px;
+width: 178px;
+min-width: 178px;
+max-height: 100px;
+object-fit: contain;
+margin-right: 10px;
+transition: transform 450ms;
+background : gray ;
+`;
 
 
 
